@@ -1,18 +1,19 @@
-'''
+"""
 Image Gallery
 - Create an image abstract class and then a class that inherits from it for each image type.
 - Put them in a program which displays them in a gallery style format for viewing.
 - My solution for https://github.com/karan/Projects-Solutions (Image Gallery Abstract Classes) see lib.py
-'''
+"""
+
+import glob
 
 import arcade
-import glob
+
 from lib import Image
-from pathlib import Path
 
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
-SCREEN_TITLE = "Starting Template"
+SCREEN_TITLE = "Image Gallery"
 MOVEMENT_SPEED = 63
 
 
